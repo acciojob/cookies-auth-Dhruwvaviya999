@@ -43,7 +43,7 @@
       font-size: 14px;
     }
 
-    button {
+    input[type="button"] {
       width: 100%;
       padding: 10px;
       margin-top: 10px;
@@ -78,12 +78,12 @@
         <label for="password">Password</label>
         <input type="password" id="password" />
       </div>
-      <button onclick="login()">Login</button>
+      <input type="button" onclick="login()" value="Login" />
     </div>
 
     <div id="welcomeSection" style="display:none;">
       <p id="welcome"></p>
-      <button onclick="logout()">Logout</button>
+       <input type="button" onclick="logout()" value="Logout" />
     </div>
   </div>
 
